@@ -1,5 +1,6 @@
 export const LightenDarkenColor = (color: string, amt: number): string => {
     let usePound = false;
+
     if (color[0] == "#") {
         color = color.slice(1);
         usePound = true;
